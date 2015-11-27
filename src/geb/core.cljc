@@ -1,14 +1,7 @@
 (ns geb.core
-  (:require [geb.platform :refer [ends-with? index-of not-implemented srest]]
-            [geb.rules :as rule]
+  (:require [geb.miu :as miu]
             [its.log :as log]))
 
 (log/set-level! :debug)
 
-(defn MI->MU []
-  (-> "MI"           ;; MI
-      rule/II        ;; MII
-      rule/II        ;; MIIII
-      rule/III       ;; MUI
-
-      ))
+(log/info :miu/MI->MU (miu/MI->MU))

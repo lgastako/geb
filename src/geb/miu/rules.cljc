@@ -1,6 +1,6 @@
-(ns geb.rules
+(ns geb.miu.rules
   (:require [geb.platform :refer [ends-with? index-of not-implemented srest]]
-            [geb.validators :as validate]
+            [geb.miu.validators :as validate]
             [its.log :as log]))
 
 (log/set-level! :debug)
