@@ -1,4 +1,4 @@
-(ns geb.miu.validators
+(ns geb.mu.validators
   (:require [geb.platform :refer [ends-with? scontains? starts-with?]]))
 
 (defn I [s]
